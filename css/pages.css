@@ -2,8 +2,17 @@
   margin: 0;
 }
 
+html,
+body {
+  height: 100%;
+}
+
 body {
   font-family: "Inter", sans-serif;
+
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
 a {
@@ -12,20 +21,14 @@ a {
   text-decoration: none;
 }
 
-div {
+.container {
   border-radius: 12px;
-  width: fit-content;
   padding: 14px 16px;
-  margin: 16px;
 }
 
 h1,
 h2 {
   font-weight: bolder;
-}
-
-h2 {
-  margin-bottom: 16px;
 }
 
 .title-red {
@@ -59,8 +62,6 @@ img {
 
 .flex-container {
   display: flex;
-  margin: 0;
-  padding: 0;
 }
 
 .flex-item {
